@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
+ using Microsoft.AspNetCore.Mvc;
 using MyFirstApp.Models;
 using System.Diagnostics;
 
@@ -18,7 +18,7 @@ namespace MyFirstApp.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Calculator()
         {
             return View();
         }
